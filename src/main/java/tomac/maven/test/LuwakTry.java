@@ -63,6 +63,7 @@ public class LuwakTry {
 		}
 		MonitorQuery query = monitor.getQuery("1");
 		System.out.println(query.getQuery());
+		monitor.close();
 	}
 
 }

@@ -27,7 +27,7 @@ public class LuceneTry {
 		Directory directory = new RAMDirectory();
 		
 		IndexWriterConfig indexWriterConfig = new IndexWriterConfig(
-				Version.LATEST, 
+				//Version.LATEST, 
 				new StandardAnalyzer()
 		);
 		IndexWriter indexWriter = new IndexWriter(directory, indexWriterConfig);
